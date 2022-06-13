@@ -1,0 +1,25 @@
+.drasi {
+    padding-top:2em;
+    padding-right:5%;
+    padding-left:5%;
+    background-color:#f2f2f2;
+    color:#545454;
+    padding-bottom:2em;
+}
+.skopos{
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.justify{
+    text-align:justify;
+}
+.padTop{
+    padding-top:2em;
+}
+@media only screen and (min-width: 64.063em) {
+    .drasi{
+        padding-right:15%;
+        padding-left:15%;
+    }
+}

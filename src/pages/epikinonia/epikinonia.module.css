@@ -1,0 +1,19 @@
+.epikinonia {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right:5%;
+    padding-left:5%;
+    background-color:#f2f2f2;
+    color:#545454;
+}
+.paddingTop{
+    padding-top:1em;
+}
+.stoixeia{
+}
+@media only screen and (min-width: 64.063em) {
+    .epikinonia{
+        padding-right:15%;
+        padding-left:15%;
+    }
+}

@@ -1,0 +1,13 @@
+.success {
+    padding-bottom:2em;
+    background-color:#f2f2f2;
+    color:#545454;
+    padding-left:5%;
+    padding-right:5%;
+}
+@media only screen and (min-width: 64.063em) {
+    .success{
+        padding-right:15%;
+        padding-left:15%;
+    }
+}

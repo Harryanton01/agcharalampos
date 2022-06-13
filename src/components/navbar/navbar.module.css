@@ -1,0 +1,17 @@
+.navbar {
+    background-color:#90b2f5;
+    border-radius:0.2em;
+}
+.navigation{
+    display: inline-flex;
+}
+.navitem{
+    padding:10px;
+}
+.logo{
+    max-height:140px;
+}
+.navLink{
+    color:#00069c !important;
+    font-size: 17px;
+}

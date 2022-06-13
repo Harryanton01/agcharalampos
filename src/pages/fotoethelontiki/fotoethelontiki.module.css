@@ -1,0 +1,14 @@
+.fotoethelontiki {}
+.fotografiesdiv {
+    background-color:#f2f2f2;
+    color:#545454;
+}
+.fotografies{
+    
+}
+@media only screen and (min-width: 64.063em) {
+    .fotografiesdiv{
+        padding-right:15%;
+        padding-left:15%;
+    }
+}
