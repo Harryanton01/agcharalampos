@@ -2,5 +2,7 @@
   "projects": {
     "default": "agcharalampos-ef2e0",
     "prod": "agcharalampos-ef2e0"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }
