@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import img1 from "../../../../images/article15.PNG";
-import img2 from "../../../../images/article15b.PNG";
+import img2 from "../../../../images/article15b.png";
 
 const Article15 = () => (
   <div>
