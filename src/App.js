@@ -23,6 +23,7 @@ import Ethelontiki from './pages/ethelontiki/ethelontiki';
 import Fotoethelontiki from './pages/fotoethelontiki/fotoethelontiki';
 import Elamazimas from './pages/elamazimas/elamazimas';
 import XorigosA from './pages/XorigosA/XorigosA';
+import Review from './pages/review/review';
 
 function App() {
   return (  
@@ -50,6 +51,7 @@ function App() {
             <Route exact path="/sponsor-announcements" component={XorigosA}/>
             <Route exact path="/websites" component={Selides}/>
             <Route exact path="/announcements" component={Announcement}/>
+            <Route exact path="/review" component={Review}/>
             <Route path="/" component={Arxiki} />
           </Switch>
         </div>

@@ -18,6 +18,7 @@ const navbar = () => (
         <NavDropdown.Item href="/organization">ΟΡΓΑΝΟΓΡΑΜΜΑ</NavDropdown.Item>
         <NavDropdown.Item href="/location">Η ΠΕΡΙΟΧΗ ΜΑΣ</NavDropdown.Item>
         <NavDropdown.Item href="/photo">ΦΩΤΟΓΡΑΦΙΕΣ</NavDropdown.Item>
+        <NavDropdown.Item href="/review">ΑΝΑΣΚΟΠΗΣΕΙΣ</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown className={styles.navLink} title="ΝΕΑ, ΔΡΑΣΕΙΣ &amp; ΑΝΑΚΟΙΝΩΣΕΙΣ" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/news">ΝΕΑ</NavDropdown.Item>

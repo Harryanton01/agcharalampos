@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './xorigos.module.css';
-import xorigoi from '../../images/xorigoi.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import styles from "./xorigos.module.css";
+import xorigoi from "../../images/xorigoi2.png";
 
 const xorigos = () => (
   <div className={styles.xorigos}>
-    <img src={xorigoi} alt="sponsors" />
+    <img src={xorigoi} style={{ minHeight: 700 }} alt="sponsors" />
   </div>
 );
 
