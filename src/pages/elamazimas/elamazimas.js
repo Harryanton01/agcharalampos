@@ -1,7 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './elamazimas.module.css';
-import Article6 from '../../components/newsfeed/articles/article6/article6';
+import React from "react";
+import styles from "./elamazimas.module.css";
+import Article6 from "../../components/newsfeed/articles/article6/article6";
 
 const elamazimas = () => (
   <div className={styles.elamazimas}>

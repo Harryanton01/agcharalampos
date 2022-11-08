@@ -1,11 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 import styles from "./arxiki.module.css";
-import Newsfeed from "../../components/newsfeed/newsfeed";
 import Dialog from "./dialog";
 import { Divider } from "@material-ui/core";
 import Weather from "../../components/weather/App";
-import Article6 from "../../components/newsfeed/articles/article6/article6";
 import Novoville from "../../images/novoville.jpg";
 import Prosfores from "../../images/prosfores.PNG";
 import Nyc from "../../images/nyc.PNG";

@@ -1,7 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './stoixeia.module.css';
-import User from './users';
+import React from "react";
+import styles from "./stoixeia.module.css";
+import User from "./users";
 
 const stoixeia = () => (
   <div className={styles.stoixeia}>

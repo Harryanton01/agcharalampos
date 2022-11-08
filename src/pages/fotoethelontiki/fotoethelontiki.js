@@ -1,12 +1,11 @@
 import React, { useState, useCallback } from "react";
-import PropTypes from 'prop-types';
-import styles from './fotoethelontiki.module.css';
+import styles from "./fotoethelontiki.module.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
-import {photos} from './photos';
+import { photos } from "./photos";
 
-function Fotografies(){
+function Fotografies() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -19,25 +18,25 @@ function Fotografies(){
     setCurrentImage(0);
     setViewerIsOpen(false);
   };
-  
+
   return (
     <div className={styles.fotografiesdiv}>
-     <Gallery photos={photos} onClick={openLightbox} />
+      <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
               currentIndex={currentImage}
-              views={photos.map(x => ({
+              views={photos.map((x) => ({
                 ...x,
                 srcset: x.srcSet,
-                caption: x.title
+                caption: x.title,
               }))}
             />
           </Modal>
         ) : null}
-      </ModalGateway> 
-  </div>
+      </ModalGateway>
+    </div>
   );
 }
 
@@ -46,4 +45,3 @@ Fotografies.propTypes = {};
 Fotografies.defaultProps = {};
 
 export default Fotografies;
-

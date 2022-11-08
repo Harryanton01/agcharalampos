@@ -1,8 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import img1 from "../../../../images/article16.PNG";
+
 const Article16 = () => (
   <div>
     <Card>

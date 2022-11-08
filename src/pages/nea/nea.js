@@ -1,7 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './nea.module.css';
-import Newsfeed from '../../components/newsfeed/newsfeed';
+import React from "react";
+import styles from "./nea.module.css";
+import Newsfeed from "../../components/newsfeed/newsfeed";
 
 const nea = () => (
   <div className={styles.nea}>
