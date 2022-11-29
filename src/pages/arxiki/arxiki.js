@@ -51,6 +51,26 @@ const arxiki = () => (
           </p>
           <Divider />
           <div className={styles.padtop}></div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2XRs59gNnNo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div className={styles.padtop}></div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wj83oG2I6g8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div className={styles.padtop}></div>
           <div className={styles.newsFeed}>
             <img src={Prosfores} alt="Metropolitan" />
           </div>
